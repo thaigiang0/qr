@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>Ủng Hộ 💖</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    * {
+      box-sizing: border-box;
+      font-family: "Segoe UI", sans-serif;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: linear-gradient(135deg, #ec4899, #f43f5e);
+      padding: 20px;
+    }
+
+    .card {
+      background: white;
+      max-width: 380px;
+      width: 100%;
+      border-radius: 20px;
+      padding: 25px;
+      text-align: center;
+      box-shadow: 0 25px 50px rgba(0,0,0,0.25);
+      animation: fadeIn 1s ease;
+    }
+
+    .heart {
+      font-size: 42px;
+      animation: beat 1.2s infinite;
+    }
+
+    h1 {
+      color: #e11d48;
+      margin: 10px 0;
+    }
+
+    p {
+      color: #555;
+      font-size: 15px;
+      line-height: 1.6;
+    }
+
+    .qr-box {
+      margin: 20px 0;
+      padding: 15px;
+      border-radius: 16px;
+      background: #fff1f2;
+    }
+
+    .qr-box img {
+      width: 200px;
+      height: 200px;
+      border-radius: 12px;
+      background: white;
+    }
+
+    .note {
+      font-size: 14px;
+      color: #9f1239;
+      margin-top: 10px;
+    }
+
+    .info {
+      margin-top: 15px;
+      font-size: 14px;
+      color: #444;
+    }
+
+    .footer {
+      margin-top: 20px;
+      font-size: 13px;
+      color: #777;
+    }
+
+    @keyframes beat {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.15); }
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="card">
+    <div class="heart">❤️</div>
+    <h1>Ủng hộ mình nha</h1>
+
+    <p>
+      Nếu bạn thấy nội dung của mình có giá trị,<br>
+      bạn có thể ủng hộ một chút để mình có thêm động lực 💖
+    </p>
+
+    <div class="qr-box">
+      <!-- THAY LINK ẢNH QR Ở ĐÂY -->
+      <img src="https://i.ibb.co/39Nz1wz9/IMG-3162.jpg" alt="QR ủng hộ">
+      <div class="note">📱 Quét mã QR để chuyển khoản</div>
+    </div>
+
+    <div class="info">
+      <strong>Tên người nhận:</strong>NONG THAI GIANG<br>
+      <strong>Nội dung:</strong> Ủng hộ
+    </div>
+
+    <div class="footer">
+      Cảm ơn bạn rất nhiều ✨
+    </div>
+  </div>
+</body>
+</html>
